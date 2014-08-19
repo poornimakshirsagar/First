@@ -1,0 +1,42 @@
+""" In git hub repository if you fork a repo by deafult you are on master branch.
+ To commit changes on git hub below steps are mendatory """
+For existing Project:
+    I. Fork A Repo:
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+Refer this link for exact steps:
+https://help.github.com/articles/fork-a-repo
+
+    II.Clone the git repo on your system local repo
+For example forked a sos repository:https://github.com/sosreport/sos to clone use below command:
+
+$ git clone https://github.com/sosreport/sos
+
+Add and modify the patches for example "python.py" patch (commit and push to test branch then merge in the master branch for sosreport)
+
+Since this sosreport go through the contributor guidelines: https://github.com/sosreport/sos/wiki/Contribution-Guidelines
+
+    III.Syncing a fork
+    Now before merging the changes keep  syncing the local repository with the upstream refer steps:
+    A) Configure a remote for fork with original project link:refer steps in
+https://help.github.com/articles/configuring-a-remote-for-a-fork
+
+    B)Syncing a fork with your project:
+fetch the  upstream repository refer steps in
+https://help.github.com/articles/syncing-a-fork
+
+    IV. Pushing changes to remote:
+    To push the changes made on your local branch to remote use  below command:
+
+    git push  <REMOTENAME> <BRANCHNAME> 
+eg:usually run git push origin master to push your local changes to your online repository.
+https://help.github.com/articles/pushing-to-a-remote#pushing-a-branch
+
+https://help.github.com/articles/dealing-with-non-fast-forward-errors
+
+https://help.github.com/articles/fetching-a-remote
+
+
+    V.Using pull requests:
+Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+For details on pull request:
+https://help.github.com/articles/using-pull-requests
