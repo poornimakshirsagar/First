@@ -1,7 +1,7 @@
 First
 =====
 
-This is first repository on git
+This is test repository on git
 Adding steps followed to create the repository on webuI
 
 -To create and commit changes use below link 
